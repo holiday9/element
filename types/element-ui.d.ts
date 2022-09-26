@@ -88,6 +88,7 @@ import { ElSpinner } from './spinner'
 import { ElDescriptions } from './descriptions'
 import { ElDescriptionsItem } from './descriptions-item'
 import { ElResult } from './result'
+import { ElMyButton9 } from './my-button9'
 
 export interface InstallationOptions {
   locale: any,
@@ -376,3 +377,5 @@ export class DescriptionsItem extends ElDescriptionsItem {}
 
 /** Result Component */
 export class Result extends ElResult {}
+/** MyButton9 Component */
+export class MyButton9 extends ElMyButton9 {}
